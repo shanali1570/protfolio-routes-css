@@ -11,7 +11,7 @@
 .container {
   margin-top: 6rem; /* Similar to 'mt-24' in Tailwind */
   margin-left: 250px;
-  margin-right: 2500px;
+  margin-right: 250px;
   padding: 1rem 3rem; /* Similar to 'px-12 py-4' */
   max-width: 1200px;
 }
