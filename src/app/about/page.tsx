@@ -1,8 +1,8 @@
 "use client";
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
-import TabButton from "../components/TabButton";
-import styles from "../styles/AboutSection.module.css";
+import TabButton from "../../components/TabButton";
+import styles from "../../styles/AboutSection.module.css";
 
 interface TabData {
   title: string;

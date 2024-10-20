@@ -1,9 +1,9 @@
 "use client";
 import React, { useState, useRef } from "react";
-import ProjectCard from "./ProjectCard";
-import ProjectTag from "./ProjectTag";
+import ProjectCard from "../../components/ProjectCard";
+import ProjectTag from "../../components/ProjectTag";
 import { motion, useInView } from "framer-motion";
-import styles from '../styles/ProjectsSection.module.css';
+import styles from '../../styles/ProjectsSection.module.css';
 
 interface Project {
   id: number;
