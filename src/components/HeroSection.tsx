@@ -41,7 +41,7 @@ const HeroSection: React.FC = () => {
             &rdquo;I create responsive, user-friendly web applications using the latest technologies like TypeScript, React, Next, and Tailwind CSS. Passionate about building digital experiences that make a difference.&rdquo;
           </p>
           <div>
-            <Link href="/#contact" className={styles.button}>
+            <Link href="/contact" className={styles.button}>
               Hire Me
             </Link>
             <Link href="https://static-resume-eta.vercel.app/" className={styles.buttonSecondary}>
