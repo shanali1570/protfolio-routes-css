@@ -10,8 +10,8 @@
 
 .container {
   margin-top: 6rem; /* Similar to 'mt-24' in Tailwind */
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 300px;
+  margin-right: 300px;
   padding: 1rem 3rem; /* Similar to 'px-12 py-4' */
   max-width: 1200px;
 }
