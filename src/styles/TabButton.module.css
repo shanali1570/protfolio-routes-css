@@ -1,0 +1,27 @@
+/* ---------------------------TabButton.module.css-------------------------- */
+.button {
+    background-color: #1e293b; /* bg-slate-800 */
+    font-weight: bold;
+    margin-right: 0.75rem;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .buttonInactive {
+    color: #adb7be; /* text-[#ADB7BE] */
+  }
+  
+  .buttonActive,
+  .button:hover {
+    color: white;
+  }
+  
+  .motionDiv {
+    height: 0.25rem;
+    background-color: #3b82f6; /* bg-primary-500 */
+    margin-top: 0.5rem;
+    margin-right: 0.75rem;
+  }
+  
+  
+  

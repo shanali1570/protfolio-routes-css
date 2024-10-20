@@ -1,0 +1,156 @@
+/* ---------------------HeroSection.module.css--------------------------- */
+.heroSection {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  @media (min-width: 640px) {
+    .grid {
+      grid-template-columns: repeat(12, 1fr);
+    }
+  }
+  
+  .motionDiv {
+    grid-column: span 8;
+    place-self: center;
+    text-align: center;
+    justify-self: start;
+  }
+  
+  @media (min-width: 640px) {
+    .motionDiv {
+      text-align: left;
+    }
+  }
+  
+  .heading {
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+  }
+  
+  @media (min-width: 640px) {
+    .heading {
+      font-size: 3rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .heading {
+      font-size: 3.75rem;
+      line-height: normal;
+    }
+  }
+  
+  .gradientText {
+    background-clip: text;
+    background: linear-gradient(to right, #3b82f6, #6b7280);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .paragraph {
+    color: #adb7be;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  @media (min-width: 640px) {
+    .paragraph {
+      font-size: 1.125rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .paragraph {
+      font-size: 1.25rem;
+    }
+  }
+  
+  .button {
+    padding: 0.75rem 1.5rem;
+    display: inline-block;
+    width: 150px;
+    border-radius: 9999px;
+    margin-right: 1rem;
+    background: #6b7280;
+    color: white;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #2d3748;
+  }
+  
+  .buttonSecondary {
+    margin-top: 0.75rem;
+    background:#6b7280;
+    border-radius: 9999px;
+    ;
+  }
+  
+  .buttonSecondary span {
+    background-color: #6b7280;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    border-radius: 9999px;
+    transition: background-color 0.3s;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .buttonSecondary span:hover {
+    background-color: #2d3748;
+  }
+  
+  .imageContainer {
+    grid-column: span 4;
+    place-self: center;
+    margin-top: 1rem;
+  }
+  
+  @media (min-width: 1024px) {
+    .imageContainer {
+      margin-top: 0;
+    }
+  }
+  
+  .imageWrapper {
+    border-radius: 9999px;
+    background-color: #181818;
+    width: 250px;
+    height: 250px;
+    position: relative;
+  }
+  
+  @media (min-width: 1024px) {
+    .imageWrapper {
+      width: 350px;
+      height: 350px;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .imageWrapper {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  
+  .image {
+    position: absolute;
+    padding: 3rem;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  

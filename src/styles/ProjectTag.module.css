@@ -1,0 +1,25 @@
+/* --------------------ProjectTag.module.css-------------------- */
+.button {
+    border-radius: 9999px; /* Fully rounded for pill shape */
+    border-width: 2px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: border-color 0.2s, color 0.2s;
+  }
+  
+  .textDefault {
+    color: #adb7be;
+    border-color: #334155; /* slate-600 */
+  }
+  
+  .textDefault:hover {
+    border-color: white;
+  }
+  
+  .textSelected {
+    color: white;
+    border-color: #3b82f6; /* primary-500 */
+  }
+  
+  

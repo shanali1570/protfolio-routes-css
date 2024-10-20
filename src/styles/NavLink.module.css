@@ -1,0 +1,22 @@
+/* ---------------------------------NavLink.module.css------------------------- */
+.link {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    color: #ADB7BE;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 0.3s;
+    border-radius: 0.25rem;
+  }
+  
+  .link:hover {
+    color: white;
+  }
+  
+  @media (min-width: 640px) {
+    .link {
+      font-size: 1.25rem; /* Larger text size for larger screens */
+    }
+  }
+  
+  

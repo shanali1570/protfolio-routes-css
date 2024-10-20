@@ -1,0 +1,105 @@
+/* --------------------EmailSection.module.css------------------ */
+
+.section {
+    display: grid;
+    gap: 1rem;
+    margin: 3rem 0;
+    padding: 6rem 0;
+    position: relative;
+  }
+  
+  .gradientBackground {
+    background: radial-gradient(
+      ellipse at center,
+      var(--tw-gradient-stops)
+    );
+    background-color: var(--primary-900);
+    border-radius: 9999px;
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    top: 75%;
+    left: -1rem;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    filter: blur(20px);
+  }
+  
+  .header {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+    margin: 0.5rem 0;
+  }
+  
+  .description {
+    color: #adb7be;
+    margin-bottom: 1rem;
+    max-width: 32rem;
+  }
+  
+  .socials {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .successMessage {
+    color: #10b981; /* Green color for success */
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+  }
+  
+  .errorMessage {
+    color: #ef4444; /* Red color for error */
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup {
+    margin-bottom: 1.5rem;
+  }
+  
+  .label {
+    color: white;
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  
+  .input,
+  .textarea {
+    background-color: #18191e;
+    border: 1px solid #33353f;
+    color: #d1d5db;
+    font-size: 0.875rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 0.625rem;
+  }
+  
+  .input::placeholder,
+  .textarea::placeholder {
+    color: #9ca2a9;
+  }
+  
+  .button {
+    background-color: var(--primary-500);
+    color: white;
+    font-weight: 500;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .button:hover {
+    background-color: #1f2937; /* Slate-800 */
+  }
+  
+  
